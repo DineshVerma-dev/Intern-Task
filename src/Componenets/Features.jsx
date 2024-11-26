@@ -121,12 +121,12 @@ function Features() {
   return (
     <div className="bg-gray-900 text-white font-raleway py-12 px-6">
       {/* Comparison Table */}
-      <div className="text-center mb-12">
+      <div className=" mb-12">
         <h2 className="text-4xl sm:text-5xl font-bold mb-6">
           Why <span className="text-yellow-500">MoonEX</span>?
         </h2>
         <div className="overflow-x-auto">
-          <table className="table-auto w-20 h-28 max-w-full mx-auto border-collapse border border-gray-700">
+          <table className="table-auto w-screen   h-28 max-w-full mx-auto border-collapse border border-gray-700">
             <thead>
               <tr className="bg-gray-800 sm:text-4xl text-2xl">
                 <th className="px-2 py-2 sm:px-8 sm:py-10 border border-gray-700">Comparison</th>
