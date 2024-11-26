@@ -8,7 +8,7 @@ function Layout() {
   return (
     <>
       <div
-        className="bg-black bg-cover bg-center min-h-screen"
+        className="bg-gray-900 bg-cover bg-center min-h-screen"
         style={{
           backgroundImage: "url('background-image.png')",
         }}
