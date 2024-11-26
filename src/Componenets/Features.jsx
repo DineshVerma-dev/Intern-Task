@@ -122,13 +122,13 @@ function Features() {
     <div className="bg-gray-900 text-white font-raleway py-12 px-6">
       {/* Comparison Table */}
       <div className=" mb-12">
-        <h2 className="text-xl sm:text-5xl ml-16 mb-11 font-bold ">
+        <h2 className="text-3xl  sm:text-5xl ml-12 mb-11 font-bold ">
           Why <span className="text-yellow-500">MoonEX</span>?
         </h2>
         <div className="overflow-x-auto scroll-none">
           <table className="table-auto w-64   h-28 max-w-full mx-auto border-collapse border border-gray-700">
             <thead>
-              <tr className="bg-gray-800 sm:text-3xl text-2xl">
+              <tr className="bg-gray-800 sm:text-3xl text-xl">
                 <th className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">Comparison</th>
                 <th className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">MoonEx</th>
                 <th className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">Uniswap</th>
@@ -136,7 +136,7 @@ function Features() {
             </thead>
             <tbody>
               {comparisonData.map((row, index) => (
-                <tr key={index} className="text-center sm:text-2xl text-xl">
+                <tr key={index} className="text-center sm:text-2xl ">
                   <td className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">{row.point}</td>
                   <td className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">
                     {row.moonEx ? "✅" : "❌"}
