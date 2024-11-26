@@ -1,13 +1,19 @@
-import { useState } from 'react'
-
+import Features from './Componenets/Features'
+import Header from './Componenets/Header'
+import Hero from './Componenets/Hero'
 import './App.css'
+import FAQandFooter from './Componenets/FAQandFooter'
+import Layout from './Componenets/Layout'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1 className='bg-red text-4xl'>Dinesh verma</h1>
+      <Layout/>
+      
+     
+      
     </>
   )
 }
