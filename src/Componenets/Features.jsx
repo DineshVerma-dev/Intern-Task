@@ -122,23 +122,23 @@ function Features() {
     <div className="bg-gray-900 text-white font-raleway py-12 px-6">
       {/* Comparison Table */}
       <div className=" mb-12">
-        <h2 className="text-4xl sm:text-5xl font-bold mb-6">
+        <h2 className="text-xl sm:text-5xl ml-16 mb-11 font-bold ">
           Why <span className="text-yellow-500">MoonEX</span>?
         </h2>
-        <div className="overflow-x-auto">
-          <table className="table-auto w-screen   h-28 max-w-full mx-auto border-collapse border border-gray-700">
+        <div className="overflow-x-auto scroll-none">
+          <table className="table-auto w-64   h-28 max-w-full mx-auto border-collapse border border-gray-700">
             <thead>
-              <tr className="bg-gray-800 sm:text-4xl text-2xl">
-                <th className="px-2 py-2 sm:px-8 sm:py-10 border border-gray-700">Comparison</th>
-                <th className="px-2 py-2 sm:px-8 sm:py-10 border border-gray-700">MoonEx</th>
-                <th className="px-2 py-2 sm:px-8 sm:py-10 border border-gray-700">Uniswap</th>
+              <tr className="bg-gray-800 sm:text-3xl text-2xl">
+                <th className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">Comparison</th>
+                <th className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">MoonEx</th>
+                <th className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">Uniswap</th>
               </tr>
             </thead>
             <tbody>
               {comparisonData.map((row, index) => (
                 <tr key={index} className="text-center sm:text-2xl text-xl">
-                  <td className="px-2 py-2 sm:px-8 sm:py-10 border border-gray-700">{row.point}</td>
-                  <td className="px-2 py-2 sm:px-8 sm:py-10 border border-gray-700">
+                  <td className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">{row.point}</td>
+                  <td className="px-2 py-2 sm:px-10 sm:py-8 border border-gray-700">
                     {row.moonEx ? "✅" : "❌"}
                   </td>
                   <td className="px-4 py-4 sm:px-8 sm:py-10 border border-gray-700">
