@@ -109,7 +109,7 @@ function Features() {
     {
       title: "No Contract Sells",
       description: "No contract sells to fund the marketing wallets",
-      icon: "✂️",
+      icon: " 👤",
     },
     {
       title: "CrossDex Support",
@@ -150,9 +150,13 @@ function Features() {
           </table>
         </div>
       </div>
-
+     
+      <h2 className="text-3xl  text-center sm:text-5xl ml-12 mb-11 font-bold ">
+          Our <span className="text-yellow-500">Features</span>
+        </h2>
       {/* Features Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+     
         {features.map((feature, index) => (
           <div
             key={index}

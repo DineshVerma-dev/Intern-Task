@@ -2,7 +2,9 @@ import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
 import Features from './Features';
-import FAQandFooter from './FAQandFooter';
+
+import FAQs from './FAQs';
+import Footer from './Footer';
 
 function Layout() {
   return (
@@ -22,7 +24,8 @@ function Layout() {
 
       {/* Features and Footer */}
       <Features />
-      <FAQandFooter />
+      <FAQs/>
+      <Footer/>
     </>
   );
 }
