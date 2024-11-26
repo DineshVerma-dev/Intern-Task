@@ -1,49 +1,40 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Footer() {
-  
-
+const Footer = () => {
   return (
-    <div className="bg-gray-900 text-white  ">
-     
-
-      {/* Footer */}
-      <footer className="bg-gray-800 py-6">
-        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-center text-center lg:text-left space-y-4 lg:space-y-0">
-          {/* Left Section */}
-          <div className="text-yellow-500 flex flex-col items-center lg:items-start">
-            <img
-              src="/moonx.png" // Replace with your logo path
-              alt="Moonex Logo"
-              className="mb-3 w-20"
-            />
-            <p>MoonEx</p>
-          </div>
-
-          {/* Center Section */}
-          <div className="text-gray-400 space-y-2">
-            <p>About Us</p>
-            <p>Roadmap</p>
-            <p>FAQs</p>
-            <p>Contact Us</p>
-          </div>
-
-          {/* Right Section */}
-          <div className="text-gray-400 space-y-2 text-center lg:text-right">
-            <h4 className="font-bold text-white">Contact Us</h4>
-            <p>
-              <a href="#" className="hover:text-yellow-500">Telegram</a>
-            </p>
-            <p>
-              <a href="#" className="hover:text-yellow-500">Reddit</a>
-            </p>
-            <p>
-              <a href="#" className="hover:text-yellow-500">Twitter</a>
-            </p>
-          </div>
+    <footer className="bg-gray-900  p-28  text-white py-8">
+      <div className="max-w-screen-xl m-10 mx-auto flex justify-between items-center px-6">
+       
+        <div className="flex items-center">
+          <img
+            src="/moonex.png" 
+            alt="Logo"
+            className="h-20"
+          />
         </div>
-      </footer>
-    </div>
+
+      
+        <div className="flex space-x-6 text-xl font-fira">
+          <a href="#" className="hover:text-gray-400">Home</a>
+          <a href="#" className="hover:text-gray-400">About</a>
+          <a href="#" className="hover:text-gray-400">Services</a>
+          <a href="#" className="hover:text-gray-400">Contact</a>
+        </div>
+
+
+        <div className="flex space-x-4 text-xl">
+          <div>
+            Contact Us
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </footer>
   );
 }
 

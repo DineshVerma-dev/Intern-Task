@@ -151,7 +151,7 @@ function Features() {
         </div>
       </div>
      
-      <h2 className="text-3xl  text-center sm:text-5xl ml-12 mb-11 font-bold ">
+      <h2 className="text-3xl p-9 text-center sm:text-5xl ml-12 mb-11 font-bold ">
           Our <span className="text-yellow-500">Features</span>
         </h2>
       {/* Features Section */}
