@@ -23,7 +23,7 @@ function FAQs() {
     ];
 
     return (
-        <div className="bg-gray-900 h-full flex justify-center px-10 pb-7 text-white">
+        <div className="bg-gray-900 h-full p-4 flex justify-center px-10 pb-7 text-white">
             
             <div className="py-24 bg-gray-800  w-full rounded-2xl   px-11 ">
                 <h2 className="text-center text-5xl  font-bold text-yellow-500 mb-8">FAQs</h2>
